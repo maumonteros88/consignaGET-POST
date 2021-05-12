@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario bienvenida</title>
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <form action="/saludar" method="post" class="formulario">
+          <h1>Bienvenidos</h1>
+          <input
+            class="textoIngresado"
+            type="text"
+            name="nombre"
+            placeholder="Ingrese nombre"
+            required
+          />
+          <input
+            class="textoIngresado"
+            type="text"
+            name="apellido"
+            placeholder="Ingrese apellido"
+            required
+          />
+          <input
+            class="textoIngresado"
+            type="text"
+            name="apodo"
+            placeholder="Ingrese apodo"
+            required
+          />
+
+          <input class="boton" type="submit" value="Ingresar" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

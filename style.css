@@ -1,0 +1,35 @@
+body {
+  background-image: url("./img/fondo.jpg");
+}
+
+.formulario {
+  margin-top: 10%;
+  text-align: center;
+  border-style: solid;
+  border-color: cadetblue;
+  padding: 40px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  background-color: white;
+}
+
+.textoIngresado {
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  padding: 7px;
+}
+
+.container {
+  width: 100vh;
+  height: 100vh;
+}
+
+.boton {
+  background-color: aqua;
+  border-style: solid;
+  border-radius: 100px;
+  padding: 4px;
+}
